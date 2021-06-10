@@ -53,7 +53,7 @@ const Home = () => {
           </div>
           <div style={{width:"60%",display:'flex',justifyContent:'flex-start'}}>
               <Button icon labelPosition='right' id='btn' size='large' onClick={() => dispatch({ type: 'OPEN_MODAL', dimmer: 'blurring', size: 'mini' })}>
-                Get Started
+                Create Room
                 <Icon name='caret right' color='white'/>
               </Button>
           </div>
