@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Faster+One&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.mainContainer,
+html,
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+.mainContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.menu {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(238, 234, 234);
+}
+
+.title {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+
+.title text {
+  font-family: "Faster One", cursive;
+  font-size: 1em;
+  color: #6c63ff;
+}
+
+.users {
+  flex: 10;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.leave {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.editor {
+  display: flex;
+  flex: 5;
+  padding: 20px;
+  flex-direction: column;
+}
+.CodeMirror {
+  min-height: 95%;
+  border-radius: 5px;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1.5;
+  max-width: 400px;
+  background-color: rgb(238, 234, 234);
+}
+
+.message-white {
+  min-height: 30px;
+  width: 98%;
+  margin: 5px;
+  padding: 1.5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  background-color: rgb(255, 255, 255);
+}
+
+.message-grey {
+  min-height: 30px;
+  width: 98%;
+  margin: 5px;
+  padding: 1.5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  background-color: rgb(238, 234, 234);
+}

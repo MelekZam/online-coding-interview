@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Faster+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.container,
+html,
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.header {
+  flex: 0.05;
+  padding: 5px;
+  margin: 20px;
+}
+
+.header text {
+  font-family: "Faster One", cursive;
+  font-size: 1.5em;
+  color: #6c63ff;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  background: linear-gradient(90deg, #6190e8, #a7bfe8);
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  color: rgb(2, 0, 17);
+}
+
+.title {
+  font-family: "Rubik Mono One", cursive;
+  font-size: 2em;
+}
+
+.desc {
+  margin-bottom: 35px;
+  font-size: 1.25em;
+}
+
+#btn {
+  border-radius: 20px;
+  background: #6c63ff;
+  color: white;
+}
+
+.image {
+  display: flex;
+  flex: 2;
+  justify-content: center;
+  justify-items: center;
+}
+
+img {
+  width: 60vw;
+  height: 80vh;
+}
+
+.footer {
+  flex: 0.05;
+}
